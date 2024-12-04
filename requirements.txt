@@ -2,5 +2,5 @@ numpy
 pandas
 streamlit
 ydata_profiling
-streamlit_pandas_profiling
+streamlit-pandas-profiling
 SurvSet
