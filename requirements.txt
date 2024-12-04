@@ -1,6 +1,5 @@
-pandas==2.2.3
-streamlit==1.40.2
-streamlit-pandas-profiling==0.1.3
-visions==0.7.4
-ydata-profiling==4.12.0
-SurvSet==0.2.6
+pandas
+streamlit
+ydata-profiling
+streamlit-ydata-profiling
+SurvSet
