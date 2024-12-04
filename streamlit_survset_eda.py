@@ -16,6 +16,7 @@ st.set_page_config(
 )
 
 st.title('SurvSet EDA')
+st.write("This Streamlit app provides an EDA (exploratory data analysis) to roughly analyze the provided datasets by SurvSet: An open-source time-to-event dataset repository.")
 
 # List of available datasets and meta-info
 loader = SurvLoader()
