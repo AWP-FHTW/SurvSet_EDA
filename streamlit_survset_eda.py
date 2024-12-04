@@ -1,9 +1,9 @@
 # Streamlit app for SurvSet EDA
 
 import streamlit as st
-from SurvSet.data import SurvLoader
-from streamlit_pandas_profiling import st_profile_report
 from ydata_profiling import ProfileReport
+from streamlit_pandas_profiling import st_profile_report
+from SurvSet.data import SurvLoader
 
 column_names = ['name', 'has time-varying features', 'sample size', 'number of categorical columns', 'not of one-hot-encoded columns', 'number of continuous columns']
 
