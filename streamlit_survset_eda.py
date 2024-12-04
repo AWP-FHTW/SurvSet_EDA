@@ -2,7 +2,7 @@
 
 import streamlit as st
 from ydata_profiling import ProfileReport
-from streamlit_pandas_profiling import st_profile_report
+from streamlit_ydata_profiling import st_profile_report
 from SurvSet.data import SurvLoader
 
 column_names = ['name', 'has time-varying features', 'sample size', 'number of categorical columns', 'not of one-hot-encoded columns', 'number of continuous columns']
@@ -67,4 +67,4 @@ else:
     profile = ProfileReport(df, progress_bar=False)
 
     # Display the profiling report in Streamlit
-    st_profile_report(profile)
+    st_profile_report(profile, navbar=True)
