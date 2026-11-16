@@ -2,6 +2,7 @@ pandas
 streamlit
 numpy>=2.0,<2.4
 setuptools<81
+watchdog<4
 ydata-profiling
-streamlit-ydata-profiling
+streamlit-ydata-profiling==0.2.1
 SurvSet
